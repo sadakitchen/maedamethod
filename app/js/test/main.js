@@ -40,9 +40,9 @@ require([
 
   // ここにテスト用ファイルを追加！
   require([
-
+    'test/specs/calculator.model.spec'
   ], function(
-
+    CalculatorModelSpec
   ) {
 
     // コンソールで出力するためには
