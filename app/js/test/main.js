@@ -38,13 +38,13 @@ require([
   chai.should();
   window.expect = chai.expect;
 
-  // ここにテスト用ファイルを追加
+  // ここにテスト用ファイルを追加！
   require([
 
   ], function(
 
   ) {
-    
+
     // コンソールで出力するためには
     // windowやdocumentなどブラウザに依存するものがあるとmochaは多分エラーになる
     // それを解決するためにヘッドレスブラウザのphantom.jsを介して
