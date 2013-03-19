@@ -44,7 +44,7 @@ require([
   ], function(
     CalculatorModelSpec
   ) {
-
+    
     // コンソールで出力するためには
     // windowやdocumentなどブラウザに依存するものがあるとmochaは多分エラーになる
     // それを解決するためにヘッドレスブラウザのphantom.jsを介して
